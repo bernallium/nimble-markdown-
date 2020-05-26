@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nimble-markdown/static/css/main.85ad7960.chunk.css",
+    "main.js": "/nimble-markdown/static/js/main.67d27ba7.chunk.js",
+    "main.js.map": "/nimble-markdown/static/js/main.67d27ba7.chunk.js.map",
+    "runtime-main.js": "/nimble-markdown/static/js/runtime-main.b96a2499.js",
+    "runtime-main.js.map": "/nimble-markdown/static/js/runtime-main.b96a2499.js.map",
+    "static/js/2.59da2533.chunk.js": "/nimble-markdown/static/js/2.59da2533.chunk.js",
+    "static/js/2.59da2533.chunk.js.map": "/nimble-markdown/static/js/2.59da2533.chunk.js.map",
+    "index.html": "/nimble-markdown/index.html",
+    "precache-manifest.72a4c1defe7e5fc8a7d71cac5bb4d1a3.js": "/nimble-markdown/precache-manifest.72a4c1defe7e5fc8a7d71cac5bb4d1a3.js",
+    "service-worker.js": "/nimble-markdown/service-worker.js",
+    "static/css/main.85ad7960.chunk.css.map": "/nimble-markdown/static/css/main.85ad7960.chunk.css.map",
+    "static/js/2.59da2533.chunk.js.LICENSE.txt": "/nimble-markdown/static/js/2.59da2533.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b96a2499.js",
+    "static/js/2.59da2533.chunk.js",
+    "static/css/main.85ad7960.chunk.css",
+    "static/js/main.67d27ba7.chunk.js"
+  ]
+}
