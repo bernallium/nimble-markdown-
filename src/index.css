@@ -12,11 +12,12 @@ body {
 
 .theme-selector {
   box-shadow: none;
+  margin-right: auto;
 }
 
-.theme-selector:focus select:focus {
+/* .theme-selector:focus select:focus {
   outline: none;
-}
+} */
 
 #theme-names,
 .theme-option {
@@ -62,13 +63,12 @@ body {
 }
 
 .App .navbar {
-  background-color: rgb(248, 248, 248);
-  box-shadow: 0px 0px 20px 0px rgb(220, 220, 220);
   padding-left: 40px;
   padding-right: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .theme-selector-and-editor {
@@ -130,4 +130,14 @@ h1.landing-page-header {
 
 .App {
   background: linear-gradient(180deg, rgb(126, 202, 116), rgb(144, 219, 228));
+}
+
+.scrolled {
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 0px 20px 0px rgb(158, 158, 158);
+}
+
+.navtop {
+  background-color: transparent;
+  display: none
 }

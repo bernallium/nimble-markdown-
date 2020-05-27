@@ -13,6 +13,7 @@
     "react-ace": "^9.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
     "react-showdown": "^2.0.3"
   },
   "scripts": {
