@@ -56,7 +56,7 @@ function App() {
     const themeSelector = document.querySelector('.theme-selector');
 
     const heroOptions = {
-      rootMargin: '-600px 0px 0px 0px'
+      rootMargin: '-500px 0px 0px 0px'
     };
 
     const heroObserver = new IntersectionObserver((entries, heroObserver) => {
@@ -64,11 +64,11 @@ function App() {
         console.log(entry.target);
         if (!entry.isIntersecting) { // User has scrolled
           navbar.classList.add('scrolled');
-          themeSelector.classList.remove('navtop');
-          navbar.classList.remove('navtop');
+          themeSelector.classList.remove('top');
+          navbar.classList.remove('top');
         } else { // Navbar is at the top of the page
-          navbar.classList.add('navtop');
-          themeSelector.classList.add('navtop');
+          navbar.classList.add('top');
+          themeSelector.classList.add('top');
           navbar.classList.remove('scrolled');
         }
       })
@@ -80,14 +80,14 @@ function App() {
   return (
     <div className="App">
       <div className='page' id='hero'> 
-        <div>
-          <h1 className='landing-page-header'>nimble</h1>
+        <div className='landing-page-header'>
+          <h1>nimble</h1>
           <h2>A simple markdown editor</h2>
         </div>
         <Link 
           to='editor' 
           smooth={true} 
-          duration={500}
+          duration={350}
         >
           <i className="fas fa-arrow-down" />
         </Link>
@@ -113,7 +113,7 @@ function App() {
       </nav>
       <div className="page">
         <div className="editor-and-panel">
-          <div className="theme-selector-and-editor">
+          <div className="editor-container">
             <AceEditor
               className="editor"
               id="editor"
@@ -127,7 +127,7 @@ function App() {
               wrapEnabled={true}
               fontSize={14}
               // width={"700px"}
-              // height={"600px"}
+              height={"800px"}
               value={markdown}
               name="UNIQUE_ID_OF_DIV"
               editorProps={{ $blockScrolling: true }}

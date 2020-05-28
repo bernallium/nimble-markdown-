@@ -21,37 +21,50 @@ body {
 
 #theme-names,
 .theme-option {
-  font-size: 12px;
+  font-size: 14px;
   background-color: rgba(248, 248, 248, 0);
+  opacity: 0.6;
+  border-radius: 4px;
 }
 
-.editor {
-  border: 1px solid rgb(202, 202, 202);
+.editor, 
+.view-panel {
   border-radius: 8px;
-  margin: 10px;
-  width: inherit !important;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  min-width: 90vw;
+  max-width: 90vw;
+  min-height: 40vh;
+  max-height: 40vh;
 }
-
 .view-panel {
   background: rgb(250, 250, 250);
-  border: 1px solid rgb(202, 202, 202);
-  border-radius: 8px;
-  margin: 10px;
-  padding: 24px;
-  min-width: 600px;
-
+  padding: 12px 24px;
+  word-wrap: break-word;
+  overflow: auto;
 }
 
-@media screen and (min-width: 800px) {
+/* When the screen is bigger than 800px */
+@media screen and (min-width: 900px) {
   .editor-and-panel {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-self: center;
   }
 
   .editor {
-    /* width: 100%; */
+    margin-right: 5px;
+  }
+
+  .view-panel {
+    margin-left: 5px;
+  }
+
+  .editor, 
+  .view-panel {
+    min-width: 45vw;
+    max-height: 80vh;
   }
 }
 
@@ -68,16 +81,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  transition: all 0.3s ease-in-out;
-}
-
-.theme-selector-and-editor {
-  display: flex;
-  flex-direction: column;
-}
-
-.editor {
-  min-width: 500px;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-brand {
@@ -90,7 +94,7 @@ body {
 }
 
 .fa-paint-roller {
-  color: rgb(76, 114, 114);
+  color: #2F4F4F;
   margin-right: 10px;
 }
 
@@ -118,26 +122,27 @@ body {
   margin-left: 10px;
 }
 
-.editor-and-panel {
-  flex-direction: row;
-  justify-content: center;
-  align-self: center;
+.landing-page-header h1{
+  font-weight: 800;
+  font-size: spx;
 }
 
-h1.landing-page-header {
-  font-weight: 800;
+.landing-page-header h2 {
+  font-size: 24px;
 }
 
 .App {
-  background: linear-gradient(180deg, rgb(126, 202, 116), rgb(144, 219, 228));
+  background: linear-gradient(180deg, rgb(126, 202, 116), rgb(108, 161, 230));
 }
 
 .scrolled {
   background-color: rgb(248, 248, 248);
   box-shadow: 0px 0px 20px 0px rgb(158, 158, 158);
+  transition: all 0.2s ease-in-out;
 }
 
-.navtop {
+.top {
   background-color: transparent;
-  display: none
+  display: none;
+  transition: all 0.2s ease-in-out;
 }
