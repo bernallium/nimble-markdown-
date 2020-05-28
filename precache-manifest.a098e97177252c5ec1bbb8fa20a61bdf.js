@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b59d25199adcb0dcbf091d146cd9f61b",
+    "revision": "8f4584a4604637076ac8547b052b4d50",
     "url": "/nimble-markdown/index.html"
   },
   {
-    "revision": "76531fa54623a655a2df",
-    "url": "/nimble-markdown/static/css/main.c9a02687.chunk.css"
+    "revision": "8040415cfecdddd4295d",
+    "url": "/nimble-markdown/static/css/main.73a03bd9.chunk.css"
   },
   {
     "revision": "25db3e51a0850a183526",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nimble-markdown/static/js/2.3c7cb56d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76531fa54623a655a2df",
+    "revision": "8040415cfecdddd4295d",
     "url": "/nimble-markdown/static/js/main.50017292.chunk.js"
   },
   {
