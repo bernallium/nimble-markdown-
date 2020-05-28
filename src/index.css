@@ -44,6 +44,8 @@ body {
   overflow: auto;
 }
 
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
 /* When the screen is bigger than 800px */
 @media screen and (min-width: 900px) {
   .editor-and-panel {
@@ -111,7 +113,7 @@ body {
 .fa-arrow-down {
   position: absolute;
   bottom: 0;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-brand-header {
