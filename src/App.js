@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='page' id='hero'> 
+      <div className='page' id='hero'>
         <div className='landing-page-header'>
           <h1>nimble</h1>
           <h2>A simple markdown editor</h2>
