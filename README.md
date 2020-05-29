@@ -1,8 +1,17 @@
-# nimble
+<br />
+<p align="center">
+  <a href="https://https://github.com/bernallium/nimble-markdown/">
+    <img src="src/nimble-logo.png" height="80">
+  </a>
 
-nimble is a simple markdown editor that gives you a live translation of your markdown input.
+  <h3 align="center">nimble</h3>
 
-### [Click HERE to start the app >> ](https://bernallium.github.io/nimble-markdown/)
+  <p align="center">
+    A simple markdown editor that gives you a live translation of your markdown input
+    <br />
+    <a href="https://bernallium.github.io/nimble-markdown/"><strong>Click here to start ➜</strong></a>
+  </p>
+</p>
 
 <p align="center">
   <img src="public/screenshots/hero.png"/>
@@ -10,8 +19,8 @@ nimble is a simple markdown editor that gives you a live translation of your mar
 </p>
 
 <p float="left" align="center">
-  <img src="public/screenshots/responsive-1.png"/>
-  <img src="public/screenshots/responsive-2.png"/>
+  <img src="public/screenshots/responsive-1.png" width="433"/>
+  <img src="public/screenshots/responsive-2.png"width="433"/>
 </p>
 
 ## Built With 👨‍💻
