@@ -109,7 +109,7 @@ function App() {
               wrapEnabled={true}
               fontSize={14}
               // width={"700px"}
-              height={"800px"}
+              // height={"800px"}
               value={markdown}
               name="UNIQUE_ID_OF_DIV"
               editorProps={{ $blockScrolling: true }}

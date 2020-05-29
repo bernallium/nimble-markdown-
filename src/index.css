@@ -81,6 +81,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   transition: all 0.2s ease-in-out;
+
 }
 
 .navbar-brand {
@@ -112,6 +113,12 @@ body {
   bottom: 0;
   margin-bottom: 20px;
   cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa-arrow-down:hover {
+  opacity: 1;
 }
 
 .navbar-brand-header {
@@ -132,7 +139,7 @@ body {
 }
 
 .App {
-  background: linear-gradient(180deg, rgb(126, 202, 116), rgb(116, 139, 202));
+  background: linear-gradient(180deg, rgb(166, 236, 119), rgb(119, 146, 221));
 }
 
 .scrolled {
