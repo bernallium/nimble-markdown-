@@ -15,10 +15,6 @@ body {
   margin-right: auto;
 }
 
-/* .theme-selector:focus select:focus {
-  outline: none;
-} */
-
 #theme-names,
 .theme-option {
   font-size: 14px;
@@ -35,6 +31,7 @@ body {
   min-width: 90vw;
   max-width: 90vw;
   min-height: 40vh;
+  min-height: 300px;
   max-height: 40vh;
 }
 .view-panel {
@@ -46,13 +43,12 @@ body {
 
 /* ──────────────────────────────────────────────────────────────────────────────── */
 
-/* When the screen is bigger than 800px */
-@media screen and (min-width: 900px) {
+/* When the screen is bigger than 900px */
+@media screen and (min-width: 950px) {
   .editor-and-panel {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-self: center;
   }
 
   .editor {
@@ -66,7 +62,8 @@ body {
   .editor, 
   .view-panel {
     min-width: 45vw;
-    max-height: 80vh;
+    /* min-height: 80vh; */
+    min-height: 600px;
   }
 }
 
@@ -114,6 +111,7 @@ body {
   position: absolute;
   bottom: 0;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .navbar-brand-header {
@@ -134,7 +132,7 @@ body {
 }
 
 .App {
-  background: linear-gradient(180deg, rgb(126, 202, 116), rgb(108, 161, 230));
+  background: linear-gradient(180deg, rgb(126, 202, 116), rgb(116, 139, 202));
 }
 
 .scrolled {
