@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37f60fecda9c9199ebc964530f447f85",
+    "revision": "47bfe70210324f9e9f6628564486364a",
     "url": "/nimble-markdown/index.html"
   },
   {
