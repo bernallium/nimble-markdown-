@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nimble-markdown/precache-manifest.860245b07974b378d161c9e67a9e8160.js"
+  "/nimble-markdown/precache-manifest.741938084a7c3b4b5f85117bc3044abe.js"
 );
 
 self.addEventListener('message', (event) => {
