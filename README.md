@@ -1,13 +1,11 @@
 <br />
 <p align="center">
-  <a href="https://https://github.com/bernallium/nimble-markdown/">
+  <a href="https://github.com/bernallium/nimble-markdown/">
     <img src="src/nimble-logo.png" height="80">
   </a>
-
   <h3 align="center">nimble</h3>
-
   <p align="center">
-    A simple markdown editor that gives you a live translation of your markdown input
+    A simple markdown editor that gives you a live preview of your markdown input
     <br />
     <a href="https://bernallium.github.io/nimble-markdown/"><strong>Click here to start ➜</strong></a>
   </p>
