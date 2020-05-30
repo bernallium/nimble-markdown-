@@ -1,6 +1,6 @@
 {
   "homepage": "https://bernallium.github.io/nimble-markdown/",
-  "name": "markdown-editor",
+  "name": "nimble-markdown",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
