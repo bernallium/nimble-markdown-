@@ -86,7 +86,7 @@ body {
 
 .navbar-brand {
   font-weight: 700;
-  color: #2F4F4F;
+  /* color: #2F4F4F; */
 }
 
 .App {
@@ -121,12 +121,9 @@ body {
   opacity: 1;
 }
 
-.navbar-brand-header {
-  font-weight: 800;
-}
-
 .navbar-brand-title {
   margin-left: 10px;
+  color: #2F4F4F;
 }
 
 .landing-page-header h1{
